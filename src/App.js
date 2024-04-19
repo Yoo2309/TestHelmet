@@ -14,9 +14,9 @@ function App() {
             element={
               <HelmetComponent1
                 description={"đây là component 1"}
-                imageUrl={"https://toeic.workon.space/"}
+                url={"https://test-helmet-eight.vercel.app/1"}
                 title={"Trang chủ"}
-                url={"https://i.imgur.com/d2waE9z.png"}
+                imageUrl={"https://i.imgur.com/d2waE9z.png"}
                 imageAlt={"lỗi ảnh"}
               />
             }
@@ -27,11 +27,11 @@ function App() {
             element={
               <HelmetComponent2
                 description={"đây là component 2"}
-                imageUrl={
-                  "https://toeic.workon.space/test/result/a15a6df3-2c6b-46bc-a8d8-7ded00085e92"
+                url={
+                  "https://test-helmet-eight.vercel.app/2"
                 }
                 title={"Trang chi tiết"}
-                url={"https://i.imgur.com/OxfKelV.png"}
+                imageUrl={"https://i.imgur.com/OxfKelV.png"}
                 imageAlt={"lỗi ảnh"}
               />
             }

@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Helmet } from "react-helmet";
 
 const metaDecorator = {
-  hostname: "https://celikk.me",
   twitterUsername: "@celikkoseoglu",
 };
 
@@ -13,7 +12,7 @@ const MetaDecorator = ({ title, description, imageUrl, imageAlt, url }) => (
     <meta property="og:title" content={title} />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={metaDecorator.hostname + imageUrl} />
+    <meta property="og:image" content={imageUrl} />
     <meta property="og:url" content={url} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image:alt" content={imageAlt} />
