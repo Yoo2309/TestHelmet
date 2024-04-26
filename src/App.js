@@ -8,22 +8,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route
-            exact
-            path="/1"
-            element={
-              <HelmetComponent1
-              />
-            }
-          />
-          <Route
-            exact
-            path="/2"
-            element={
-              <HelmetComponent2
-              />
-            }
-          />
+          <Route exact path="/1" element={<HelmetComponent1 />} />
+          <Route exact path="/2" element={<HelmetComponent2 />} />
         </Routes>
       </BrowserRouter>
     </div>
